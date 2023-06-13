@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="tesla_tests.Tesla_homepagetest">
+        <methods>
+          <include name="selectModel3"/>
+          <include name="selectModels"/>
+          <include name="verifyTitle"/>
+          <include name="modelsInformation"/>
+          <include name="closure"/>
+          <include name="modelyInformation"/>
+          <include name="selectModely"/>
+          <include name="checkImage"/>
+          <include name="model3Information"/>
+          <include name="selectModelX"/>
+          <include name="verifyLogo"/>
+          <include name="powerWallButton"/>
+          <include name="solarRoof"/>
+          <include name="launch"/>
+          <include name="solarPanel"/>
+        </methods>
+      </class> <!-- tesla_tests.Tesla_homepagetest -->
+      <class name="tesla_tests.Tesla_menu">
+        <methods>
+          <include name="getdtext"/>
+          <include name="selectsteering"/>
+          <include name="selectphonenumber"/>
+          <include name="selectdistance"/>
+          <include name="launch"/>
+          <include name="utilityinformation"/>
+          <include name="selectmodel"/>
+          <include name="clicknextinfo"/>
+          <include name="selectpi"/>
+          <include name="clickzoominn"/>
+          <include name="selwheels"/>
+          <include name="clickcontactus"/>
+          <include name="selectipaint"/>
+          <include name="getfindustext"/>
+          <include name="clickdinfo"/>
+          <include name="getlinformation"/>
+          <include name="enterZipp"/>
+          <include name="addimage"/>
+          <include name="clickzoomout"/>
+          <include name="selecttrim"/>
+          <include name="selectdmodel"/>
+          <include name="getcarinformation"/>
+          <include name="selectepaint"/>
+          <include name="selectemail"/>
+          <include name="clickdemo"/>
+          <include name="clickmenu"/>
+          <include name="clicktinfo"/>
+          <include name="clickitem1"/>
+          <include name="clickfindus"/>
+          <include name="verifyutilitytext"/>
+          <include name="getinformation"/>
+          <include name="clicklearnmore"/>
+          <include name="sortprice"/>
+          <include name="clickutilities"/>
+          <include name="enterzipcode"/>
+          <include name="getotherinform"/>
+          <include name="selectregionn"/>
+          <include name="verifytext"/>
+          <include name="enterlocationn"/>
+          <include name="closure"/>
+          <include name="getnotificationn"/>
+          <include name="addinformation"/>
+        </methods>
+      </class> <!-- tesla_tests.Tesla_menu -->
+      <class name="tesla_tests.Tesla_logintest">
+        <methods>
+          <include name="enterEmail"/>
+          <include name="enterData"/>
+          <include name="enterPassword"/>
+          <include name="closure"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- tesla_tests.Tesla_logintest -->
+      <class name="tesla_tests.Add_to_cart">
+        <methods>
+          <include name="clickShopnow"/>
+          <include name="launch"/>
+          <include name="selectQuantity"/>
+          <include name="clickGuest"/>
+          <include name="clickCheckout"/>
+          <include name="getChargetext"/>
+          <include name="getText"/>
+          <include name="getItem3info"/>
+          <include name="addItem1"/>
+          <include name="getItem2info"/>
+          <include name="getCarinfo"/>
+          <include name="addItem2"/>
+          <include name="closure"/>
+          <include name="verifyGuesttext"/>
+          <include name="addItem"/>
+          <include name="getItem1info"/>
+          <include name="getGuestinfo"/>
+          <include name="clickCartshow"/>
+        </methods>
+      </class> <!-- tesla_tests.Add_to_cart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
